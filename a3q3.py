@@ -1,0 +1,9 @@
+def square():
+    sum=0
+    for i in range(1,51):
+        if i%2==0:
+            sum+=i**2
+    return sum
+
+num=square()
+print(num)
